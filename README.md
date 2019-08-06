@@ -1,10 +1,9 @@
 # why
 每次我新建一个iOS项目的时候，我得做如下事情：
-
-1，配置 SwiftLint
-1. 配置 RSwift
-2. 配置 fastlane
-3. 配置 Podfile
+1. 配置 SwiftLint
+2. 配置 RSwift
+3. 配置 fastlane
+4. 配置 Podfile
 于是我在想能否做一个模版工程，每次修改下工程名就行了，于是诞生了这个项目
 
 # how
