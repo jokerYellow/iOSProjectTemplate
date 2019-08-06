@@ -1,0 +1,54 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TemplateProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks! 
+  # Networking
+  pod 'Moya/RxSwift'
+  pod 'ReachabilitySwift'
+
+  # Networking
+  pod 'Moya/RxSwift'
+  pod 'ReachabilitySwift'
+  pod 'ObjectMapper', '~> 3.4'
+  pod 'SwiftyJSON', '~> 4.0'
+
+  # DataBase
+  pod 'FMDB'
+
+  # Rx Extensions
+  pod 'RxDataSources'
+  pod 'RxSwiftExt'
+  pod 'NSObject+Rx'
+  pod 'RxViewController'
+
+  # Image
+  pod 'Kingfisher'
+
+  # Tools
+  pod 'R.swift'
+  pod 'SwiftLint'
+
+  # UI
+  pod 'DZNEmptyDataSet'
+  pod 'KafkaRefresh'
+  pod 'Toast-Swift'
+
+  # Color
+  pod 'UIColor_Hex_Swift', '~> 5.1.0'
+
+  # Auto Layout
+  pod 'SnapKit'
+
+  # Code Quality
+  pod 'SwifterSwift'
+
+  # Pods for TemplateProject
+
+  target 'TemplateProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
