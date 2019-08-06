@@ -2,6 +2,8 @@
 tmpName='TemplateProject'
 echo "hello,input project name:"
 read projectName
+echo "hello,input project directory: "
+read directory
 echo make project: $projectName
 rm -rf $projectName
 cp -r TemplateProject $projectName
@@ -32,9 +34,12 @@ mv bak $testCaseDir
 podfile="${projectName}/Podfile" 
 sed "s/${tmpName}/${projectName}/g" $podfile  > bak 
 mv bak $podfile
-cd ${projectName}
+
+echo ${projectName}  $directory/${projectName}
+mv ${projectName} $directory/${projectName}
+
+cd $directory/${projectName}
 echo project is ok
 echo pod install
 pod install 
-echo open project
 open $projectName.xcworkspace
