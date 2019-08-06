@@ -1,5 +1,6 @@
 # why
 每次我新建一个iOS项目的时候，我得做如下事情：
+
 1，配置 SwiftLint
 1. 配置 RSwift
 2. 配置 fastlane
