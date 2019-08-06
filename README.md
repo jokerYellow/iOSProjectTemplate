@@ -16,3 +16,6 @@
 1. download 工程，执行 `sh template.sh`，输入工程名以及工程路径就行了
 2. 修改 Fastfile 里的配置
 3. 修改 config 里的 bugly 配置
+
+
+ps:迫于有时候 `pod install` 特别慢，我把 Pods 文件也放到模版工程里了.
