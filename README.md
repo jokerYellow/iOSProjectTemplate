@@ -1,7 +1,7 @@
 # why
 每次我新建一个iOS项目的时候，我得做如下事情：
 1. 配置 SwiftLint
-2. 配置 RSwift
+2. 配置 R.Swift
 3. 配置 Fastlane
 4. 配置 Podfile
 5. 配置 Bugly
